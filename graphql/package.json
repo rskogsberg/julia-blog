@@ -1,0 +1,17 @@
+{
+  "name": "sausages-sweatshops-backend",
+  "version": "1.0.0",
+  "description": "Koa and GraphQL backend for Julia's blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Richard Skogsberg",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-koa": "^2.13.1",
+    "graphql-tools": "^5.0.0",
+    "koa": "^2.11.0",
+    "moment": "^2.25.3"
+  }
+}

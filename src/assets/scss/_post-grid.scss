@@ -1,0 +1,54 @@
+.grid-pagination-container {
+
+  nav.MuiPagination-root {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  grid-gap: 30px;
+  grid-auto-rows: 1fr;
+  padding-bottom: 50px;
+
+  figure {
+    height: 100%;
+    max-height: 280px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  img {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 200px;
+    max-height: 280px;
+  }
+
+  .post-container {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+    }
+
+    .author-text {
+      color: $grey;
+    }
+
+    a {
+      padding: 0 5px;
+    }
+  }
+}
